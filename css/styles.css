@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+header {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position:initial ;
+    color: black;
+    text-align: center;
+    padding: 10em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
