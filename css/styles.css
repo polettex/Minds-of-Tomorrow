@@ -1,23 +1,114 @@
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 
 
-header {
-    background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position:initial ;
+
+body {
+    font-family: 'Nunito', sans-serif;
     color: black;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url(../img/banner-2.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15em;
     text-align: center;
-    padding: 10em;
-}
-
-section {
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 80px;
+  }
+  
+  .medio {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: 20px;
+  }
+  
+.primero {
     width: 50%;
 }
+
+
+  .medio h1 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  
+  .medio p {
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .medio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .galeria img {
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .segundo {
+    text-align: center;
+    background-color: rgb(0, 223, 149);
+    margin: 0;
+  }
+
+  .segundo h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+   .cuatro {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    flex-wrap: nowrap;
+ }
+
+   .cuatro img {
+    width: 100%;
+    height: auto;
+ }
+
+   .azul {
+    background-color: rgb(69, 69, 249);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 6rem;
+    margin: 0;
+ } 
+
+    .azul h1 {
+        font-size: 50px;
+ }
+    footer {
+        background-color: black;
+        color: white;
+        margin: 0;
+    }
